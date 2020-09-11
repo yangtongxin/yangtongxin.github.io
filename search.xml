@@ -1,76 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2020/09/10/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>my-third-blog</title>
-    <url>/2020/09/10/my-third-blog/</url>
-    <content><![CDATA[<h2 id="ICC的library生成"><a href="#ICC的library生成" class="headerlink" title="ICC的library生成"></a>ICC的library生成</h2><h3 id="333333"><a href="#333333" class="headerlink" title="333333"></a>333333</h3><hr>
-<p><code>dc_shell</code></p>
-<p>でるかな？</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">function fun()&#123;</span><br><span class="line"></span><br><span class="line">    aaa</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line">$ic_shell xxx</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+    <title>Check PC Port</title>
+    <url>/2020/09/11/Check-PC-Port/</url>
+    <content><![CDATA[<h2 id="确认Windows的端口占用"><a href="#确认Windows的端口占用" class="headerlink" title="确认Windows的端口占用"></a>确认Windows的端口占用</h2><hr>
+<p>+背景</p>
+<p>在学习用<strong>github</strong>和<strong>hexo</strong>做blog时，用<code>hexo s</code>来测试的时候，默认的 <strong>localhost:4000</strong>无法打开。</p>
 <a id="more"></a>
 
-<p>More info: <a href="https://www.logic-research.co.jp/">command</a></p>
+<p>+确认端口列表</p>
+<p>打开Windows的 cmd，输入<br><code>netstat -ano|findstr &quot;the port number&quot;</code><br>确认是否被占用。</p>
+<p>+查看被占用的端口的进程<br><code>tasklist|findstr &quot;pid&quot;</code></p>
+<p>+结束该进程<br><code>taskkill /f /t /im xxxxxxxx.exe</code></p>
+<p> 当然也可以用任务管理器看结束进程，更直观方便。</p>
 ]]></content>
       <categories>
-        <category>LSI</category>
+        <category>Windows</category>
       </categories>
       <tags>
-        <tag>layout</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>my-first-blog</title>
-    <url>/2020/09/10/my-first-blog/</url>
-    <content><![CDATA[<h2 id="ICC的library生成"><a href="#ICC的library生成" class="headerlink" title="ICC的library生成"></a>ICC的library生成</h2><p><code>dc_shell</code></p>
-<p>でるかな？</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">function fun()&#123;</span><br><span class="line"></span><br><span class="line">    aaa</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line">$ic_shell xxx</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://www.logic-research.co.jp/">command</a></p>
-<h3 id="追加一个图片试一下"><a href="#追加一个图片试一下" class="headerlink" title="追加一个图片试一下"></a>追加一个图片试一下</h3>]]></content>
-      <categories>
-        <category>LSI</category>
-        <category>Design</category>
-        <category>BackEnd</category>
-      </categories>
-      <tags>
-        <tag>ICC</tag>
-        <tag>Layout</tag>
-        <tag>Synopsys</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>my-second-blog</title>
-    <url>/2020/09/10/my-second-blog/</url>
-    <content><![CDATA[<h2 id="ICC的library生成"><a href="#ICC的library生成" class="headerlink" title="ICC的library生成"></a>ICC的library生成</h2><p><code>dc_shell</code></p>
-<p>でるかな？</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">function fun()&#123;</span><br><span class="line"></span><br><span class="line">    aaa</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line">$ic_shell xxx</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<a id="more"></a>
-
-<p>More info: <a href="https://www.logic-research.co.jp/">command</a></p>
-<h3 id="追加一个图片试一下"><a href="#追加一个图片试一下" class="headerlink" title="追加一个图片试一下"></a>追加一个图片试一下</h3>]]></content>
-      <categories>
-        <category>CAD</category>
-      </categories>
-      <tags>
-        <tag>ICC</tag>
+        <tag>端口占用</tag>
+        <tag>localhost</tag>
       </tags>
   </entry>
 </search>

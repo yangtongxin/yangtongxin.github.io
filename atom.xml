@@ -6,7 +6,7 @@
   <link href="http://yangtongxin.github.io.git/atom.xml" rel="self"/>
   
   <link href="http://yangtongxin.github.io.git/"/>
-  <updated>2020-09-10T11:21:11.610Z</updated>
+  <updated>2020-09-10T15:51:59.604Z</updated>
   <id>http://yangtongxin.github.io.git/</id>
   
   <author>
@@ -17,88 +17,25 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>my-third-blog</title>
-    <link href="http://yangtongxin.github.io.git/2020/09/10/my-third-blog/"/>
-    <id>http://yangtongxin.github.io.git/2020/09/10/my-third-blog/</id>
-    <published>2020-09-10T11:17:02.000Z</published>
-    <updated>2020-09-10T11:21:11.610Z</updated>
+    <title>Check PC Port</title>
+    <link href="http://yangtongxin.github.io.git/2020/09/11/Check-PC-Port/"/>
+    <id>http://yangtongxin.github.io.git/2020/09/11/Check-PC-Port/</id>
+    <published>2020-09-10T15:36:41.000Z</published>
+    <updated>2020-09-10T15:51:59.604Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;ICC的library生成&quot;&gt;&lt;a href=&quot;#ICC的library生成&quot; class=&quot;headerlink&quot; title=&quot;ICC的library生成&quot;&gt;&lt;/a&gt;ICC的library生成&lt;/h2&gt;&lt;h3 id=&quot;333333&quot;&gt;&lt;a href=&quot;#333333&quot; class=&quot;headerlink&quot; title=&quot;333333&quot;&gt;&lt;/a&gt;333333&lt;/h3&gt;&lt;hr&gt;
-&lt;p&gt;&lt;code&gt;dc_shell&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;でるかな？&lt;/p&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;function fun()&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    aaa&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ic_shell xxx&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
-    
-    
-    
-    <category term="LSI" scheme="http://yangtongxin.github.io.git/categories/LSI/"/>
-    
-    
-    <category term="layout" scheme="http://yangtongxin.github.io.git/tags/layout/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://yangtongxin.github.io.git/2020/09/10/hello-world/"/>
-    <id>http://yangtongxin.github.io.git/2020/09/10/hello-world/</id>
-    <published>2020-09-10T11:14:36.837Z</published>
-    <updated>2020-09-10T09:38:48.000Z</updated>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
-      
+    <summary type="html">&lt;h2 id=&quot;确认Windows的端口占用&quot;&gt;&lt;a href=&quot;#确认Windows的端口占用&quot; class=&quot;headerlink&quot; title=&quot;确认Windows的端口占用&quot;&gt;&lt;/a&gt;确认Windows的端口占用&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;+背景&lt;/p&gt;
+&lt;p&gt;在学习用&lt;strong&gt;github&lt;/strong&gt;和&lt;strong&gt;hexo&lt;/strong&gt;做blog时，用&lt;code&gt;hexo s&lt;/code&gt;来测试的时候，默认的 &lt;strong&gt;localhost:4000&lt;/strong&gt;无法打开。&lt;/p&gt;</summary>
     
     
     
-    
-  </entry>
-  
-  <entry>
-    <title>my-first-blog</title>
-    <link href="http://yangtongxin.github.io.git/2020/09/10/my-first-blog/"/>
-    <id>http://yangtongxin.github.io.git/2020/09/10/my-first-blog/</id>
-    <published>2020-09-10T07:17:02.000Z</published>
-    <updated>2020-09-10T10:25:10.000Z</updated>
+    <category term="Windows" scheme="http://yangtongxin.github.io.git/categories/Windows/"/>
     
     
-    <summary type="html">这是想链接到 CAD study下面的。</summary>
+    <category term="端口占用" scheme="http://yangtongxin.github.io.git/tags/%E7%AB%AF%E5%8F%A3%E5%8D%A0%E7%94%A8/"/>
     
-    
-    
-    <category term="LSI" scheme="http://yangtongxin.github.io.git/categories/LSI/"/>
-    
-    <category term="Design" scheme="http://yangtongxin.github.io.git/categories/LSI/Design/"/>
-    
-    <category term="BackEnd" scheme="http://yangtongxin.github.io.git/categories/LSI/Design/BackEnd/"/>
-    
-    
-    <category term="ICC" scheme="http://yangtongxin.github.io.git/tags/ICC/"/>
-    
-    <category term="Layout" scheme="http://yangtongxin.github.io.git/tags/Layout/"/>
-    
-    <category term="Synopsys" scheme="http://yangtongxin.github.io.git/tags/Synopsys/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>my-second-blog</title>
-    <link href="http://yangtongxin.github.io.git/2020/09/10/my-second-blog/"/>
-    <id>http://yangtongxin.github.io.git/2020/09/10/my-second-blog/</id>
-    <published>2020-09-10T07:17:02.000Z</published>
-    <updated>2020-09-10T10:22:26.000Z</updated>
-    
-    
-    <summary type="html">这是想链接到 CAD study下面的。</summary>
-    
-    
-    
-    <category term="CAD" scheme="http://yangtongxin.github.io.git/categories/CAD/"/>
-    
-    
-    <category term="ICC" scheme="http://yangtongxin.github.io.git/tags/ICC/"/>
+    <category term="localhost" scheme="http://yangtongxin.github.io.git/tags/localhost/"/>
     
   </entry>
   
